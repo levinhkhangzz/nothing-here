@@ -6,7 +6,7 @@ excerpt: Hello peeps, I am a medical student from Ho Chi Minh City, living in Vi
 comments: false
 ---
 
-He's a student from Ho Chi Minh City, living in Jogjakarta. the blog for documentation about his programming 🎒 journey, running on jekyll, he also loves to learning web technology; but he often forgot, that a reason why him doing the writing.
+He's a student from Vietnam, living in Ho Chi Minh City. the blog for documentation about his programming 🎒 journey, running on jekyll, he also loves to learning web technology; but he often forgot, that a reason why him doing the writing.
 
 If you have a question about him or else, just send a letter to him.
 
