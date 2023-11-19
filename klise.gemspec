@@ -1,13 +1,13 @@
 # frozen_string_literal: true
 
 Gem::Specification.new do |spec|
-  spec.name     = "klise"
+  spec.name     = "aedotris"
   spec.version  = "1.0.1"
-  spec.authors  = ["Mahendrata Harpi"]
-  spec.email    = ["justharpi@gmail.com"]
+  spec.authors  = ["Aedotris"]
+  spec.email    = ["levinhkhang631@gmail.com"]
 
-  spec.summary  = "🏖 Klisé is a minimalist Jekyll theme for running a personal site or blog, light & dark mode support."
-  spec.homepage = "https://github.com/piharpi/jekyll-klise"
+  spec.summary  = "🏖 Aedotris is a minimalist Jekyll theme for running a personal site or blog, light & dark mode support."
+  spec.homepage = "https://github.com/levinhkhangzz/nothing-here"
   spec.license  = "MIT"
 
   spec.metadata["plugin_type"] = "theme"
