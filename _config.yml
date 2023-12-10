@@ -1,31 +1,34 @@
 # Site settings
-title: Blog | Aedotris # site title
-description: >- # site description
-  He’s a student from Vietnam, living in Ho Chi Minh City. the blog for documentation about his programming 🎒 journey, running on jekyll, he also loves to learning web technology; but he often forgot, that a reason why him doing the writing.
-lang: en-US # default lang
-timezone: Asia/Ho_Chi_Minh # set your timezone
-image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
-repo: https://github.com/levinhkhangzz/nothing-here # site repo [optional]
-mode: dark # default theme "dark" | "light"
+title: "Blog | Aedotris" # site title
+description: >
+  He’s a student from Vietnam, living in Ho Chi Minh City. 
+  The blog for documentation about his programming journey, 
+  running on jekyll. He also loves learning web technology, 
+  but he often forgets, that a reason why him doing the writing.
+lang: "en-US" # default lang
+timezone: "Asia/Ho_Chi_Minh" # set your timezone
+image: "assets/img/ogp.png" # This image used for Open Graph, more info https://ogp.me/
+repo: "https://github.com/levinhkhangzz/nothing-here" # site repo [optional]
+mode: "dark" # default theme "dark" | "light"
 
 # Profile settings
 author:
-  name: Aedotris # author name
-  bio: >- # tell to the world
+  name: "Aedotris" # author name
+  bio: >
     In the quiet realm of a coder life, the symphony of keystrokes orchestrates a world of innovation and endless possibilities.
-  username: levinhkhangzz # general username
-  github: levinhkhangzz # github username
-  twitter: aedotris # twitter username
-  facebook: 199717642 # facebook username
-  email: levinhkhang631@gmail.com # email adress
-  avatar: /assets/img/avatar.jpg # change with your own avatar
+  username: "levinhkhangzz" # general username
+  github: "levinhkhangzz" # GitHub username
+  twitter: "aedotris" # Twitter username
+  facebook: "199717642" # Facebook username
+  email: "levinhkhang631@gmail.com" # Email address
+  avatar: "/assets/img/avatar.jpg" # Change with your own avatar
 
 # URL settings
-url: "https://levinhkhang.dev" #
-baseurl:
-permalink: /:title/
-google_analytics: # leave it blank if not wish
-fb_appid:
+url: "https://levinhkhang.dev"
+baseurl: ""
+permalink: "/:title/"
+google_analytics: "" # Leave it blank if not desired
+fb_appid: ""
 
 # Collection setting
 collections:
@@ -43,48 +46,48 @@ defaults:
   - scope:
       path: ""
     values:
-      layout: post
+      layout: "post"
       comments: false
 
 # Jekyll Compose default front matter
 jekyll_compose:
   post_default_front_matter:
-    modified:
+    modified: null
     tags: []
-    description:
+    description: null
   draft_default_front_matter:
-    modified:
+    modified: null
     tags: []
-    description:
+    description: null
 
 # Homepage limit posts
 number_of_posts: 5
 
 # Build settings
-# theme: klise
+theme: "klise"
 sass:
-  style: compressed
+  style: "compressed"
 
 include:
-  - _redirects
-  - .htaccess
+  - "_redirects"
+  - ".htaccess"
 
 exclude:
-  - CNAME
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - CHANGELOG.md
-  - README.md
-  - node_modules
-  - CODE_OF_CONDUCT.md
-  - CONTRIBUTING.md
-  - lighthouse.png
-  - klise-*.gem
-  - klise.gemspec
+  - "CNAME"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "LICENSE"
+  - "CHANGELOG.md"
+  - "README.md"
+  - "node_modules"
+  - "CODE_OF_CONDUCT.md"
+  - "CONTRIBUTING.md"
+  - "lighthouse.png"
+  - "klise-*.gem"
+  - "klise.gemspec"
 
 # Plugins
 plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-postfiles
+  - "jekyll-feed"
+  - "jekyll-sitemap"
+  - "jekyll-postfiles"
